@@ -2,7 +2,7 @@
   <q-layout view="lHh Lpr lFf">
     <q-page-container>
       <div class="q-pa-md doc-container">
-        <div class="row q-pb-lg">
+        <div class="row q-mb-lg">
           <div class="col-12 col-md-8">
             <div class="logo" @click="$route.path === '/' ? 0 : $router.push('/')">
               TRAVOLTA

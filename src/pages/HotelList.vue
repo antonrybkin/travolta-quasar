@@ -1,7 +1,7 @@
 <template>
   <q-page>
     <div class="row">
-      <div class="col-md-3 desktop-only">
+      <div class="col-md-3 q-pr-lg desktop-only">
         <q-card class="my-card q-pa-md q-mb-md">
           <h2 class="text-h6 q-ma-none">Filter Box</h2>
           <p v-if="query">
@@ -23,7 +23,7 @@
         </q-card>
       </div>
 
-      <div class="col-12 col-md-9 q-pl-lg">
+      <div class="col-12 col-md-9">
         <q-card 
           v-if="!hotels || hotels.length < 1" 
           class="q-py-lg text-center"

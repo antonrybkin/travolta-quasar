@@ -1,5 +1,5 @@
 <template>
-  <q-card class="my-card">
+  <q-card class="my-card q-mb-lg">
     <q-form
       @submit="onSubmit"
       class="q-py-sm q-px-lg q-pt-lg"
